@@ -1,3 +1,36 @@
+/**
+ * File: course_planner.cpp
+ * Author: David Allen
+ * Date: 2023-10-01
+ * Version: 2.0 - updated header
+ *
+ * Description:
+ * This C++ program provides functionality for course planning and information retrieval.
+ * The program reads course data from a CSV file, displays the list of courses, and allows
+ * users to view details of specific courses.
+ *
+ * File Details:
+ * - "course_planner.cpp": Main file containing the program logic and user interface.
+ *
+ * Included Libraries:
+ * - <iostream>: Input/output operations
+ * - <fstream>: File input/output operations
+ * - <vector>: Vector container
+ * - <string>: String handling
+ * - <algorithm>: Algorithms for operations on ranges of elements
+ * - <sstream>: String stream for parsing
+ * - <limits>: Numeric limits for input validation
+ *
+ * Structures:
+ * - struct Course: Structure for course information, including ID, title, and prerequisites.
+ *
+ * Functions:
+ * - bool loadCourseData(vector<Course>& courses): Loads course data from a CSV file.
+ * - void printCourseList(const vector<Course>& courses): Prints the list of courses.
+ * - void printCourseDetails(const vector<Course>& courses, const string& courseID):
+ *   Finds and prints details of a specific course.
+ * - int main(): Main function containing program logic and user interface.
+ */
 
 #include <iostream>  // Input/output operations
 #include <fstream>   // File input/output operations
