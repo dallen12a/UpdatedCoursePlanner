@@ -1,3 +1,32 @@
+"""
+File: course_planner.py
+Author: David Allen
+Date: 2023-10-01
+Version: 2.0 - updated header
+
+Description:
+This Python script provides functionality for course planning and information retrieval.
+The script reads course data from a CSV file, displays the list of courses, and allows
+users to view details of specific courses.
+
+File Details:
+- "course_planner.py": Main file containing the program logic and user interface.
+
+Imported Module:
+- csv: Provides functionality for reading and writing CSV files.
+
+Classes:
+- class Course: Defines the Course structure, including ID, title, and prerequisites.
+
+Functions:
+- def load_course_data(courses): Loads course data from a CSV file.
+- def print_course_list(courses): Prints the list of courses.
+- def print_course_details(courses, course_id): Finds and prints details of a specific course.
+
+Main Execution:
+- if __name__ == "__main__": Entry point for the script, containing program logic and user interface.
+"""
+
 import csv  # Import the CSV module
 
 # Class for Course structure
