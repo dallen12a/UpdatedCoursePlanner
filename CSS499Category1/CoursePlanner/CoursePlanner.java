@@ -1,3 +1,32 @@
+/**
+ * File: CoursePlanner.java
+ * Package: CoursePlanner
+ * Author: David Allen
+ * Date: 2023-10-01
+ * Version: 2.0 - updated header
+ *
+ * Description:
+ * This Java program provides functionality for course planning and information retrieval.
+ * The program reads course data from a CSV file, displays the list of courses, and allows
+ * users to view details of specific courses.
+ *
+ * File Details:
+ * - "CoursePlanner.java": Main file containing the program logic and user interface.
+ * - Package: CoursePlanner - Contains the CoursePlanner program.
+ *
+ * Classes:
+ * - class Course: Defines the Course structure, including ID, title, and prerequisites.
+ * - public class CoursePlanner: Main class containing program logic and user interface.
+ *
+ * Imported Classes:
+ * - BufferedReader: Reads text from a character-input stream.
+ * - FileReader: Convenience class for reading character files.
+ * - IOException: Signals that an I/O exception of some sort has occurred.
+ * - ArrayList: Resizable-array implementation of the List interface.
+ * - List: The root interface for various collection classes.
+ * - Scanner: A simple text scanner that can parse primitive types and strings.
+ */
+
 package CoursePlanner; // Package for the CoursePlanner program
 
 import java.io.BufferedReader;
